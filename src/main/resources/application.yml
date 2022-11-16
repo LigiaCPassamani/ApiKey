@@ -1,0 +1,17 @@
+#DATABASE
+#Database config
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/apikey
+    username: postgres
+    password: masterkey
+
+  jpa:
+    show-sql=: true
+    database: PostgreSQL
+    generate-ddl: false
+    hibernate:
+      ddl-auto: create
+
+server:
+  port: 8082

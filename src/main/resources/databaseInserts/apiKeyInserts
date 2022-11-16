@@ -1,0 +1,11 @@
+INSERT INTO auth_api_keys(api_key, client) VALUES ('YXBpIHRlc3Rl','api teste');
+------------------------------------------------------------------------------------------------------------------------
+INSERT INTO auth_api_key_roles(roles_id, auth_api_keys_id) VALUES (1, 1);
+------------------------------------------------------------------------------------------------------------------------
+INSERT INTO public.roles(
+	id, description, name)
+	VALUES (1, 'ROLE DE TESTE', 'TESTE2');
+------------------------------------------------------------------------------------------------------------------------
+INSERT INTO public.teste(
+	id, teste)
+	VALUES (1, 'CHAMADA TESTE');
