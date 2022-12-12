@@ -12,5 +12,6 @@
 > - Java 17
 > - Maven latest
 > - **Default port**: 8082
+> - Database: PostgresSQL
 
 
